@@ -7,7 +7,6 @@ def Resta(a,b):
 print("---------- Operadores aritmeticos --------------")
 print("Operador suma, 5 + 6 = ",Suma(5,6))
 print("Operador resta, 5 - 6 = ",Resta(5,6))
-print("Operador resta, 5 - 6 = ",Resta(5,6))
 print("Operador Multiplicacion, 5 * 6 = ",5*6)
 print("Operador Division, 5 / 6 = ",5/6)
 print("Operador Division entera, 5 // 6 = ",5//6)
