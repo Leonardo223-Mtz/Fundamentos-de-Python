@@ -87,4 +87,26 @@ if __name__ == "__main__":
     w = -63j
     print(q,type(q))
     print(w,type(w))
+    print(q + w)
 
+    print(nuevoTema("Booleanos"))
+    q = True
+    w = False
+    print(q,type(q))
+    print(w,type(w))
+
+
+    print(nuevoTema("Listas"))
+    q = [2,5.6,"Cadena"]
+    print(q)
+    print(q[1])
+    q.append("Leo")
+    q[0] = "Hola"
+    print(q)
+    q.insert(1,"elemento1")
+    print(q)
+    print(q.index(5.6))
+    print(q.index("Leo"))
+    q.append([1,2,3,4,5])
+    print(q)
+    print(q[5][0])
