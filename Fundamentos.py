@@ -7,7 +7,7 @@ def Resta(a,b):
     return a - b
 
 def nuevoTema(tema):
-    return f"---------- {tema} ----------"
+    return f"\n---------- {tema} ----------\n"
 
 if __name__ == "__main__":
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     Línea 2 
     Etc....'''
 
-    print("---------- Operadores lógicos --------------")
+    print(nuevoTema("Operadores lógicos")) 
     print("Operador not")
     print("not True:", not True)
     print("not False:", not False)
@@ -44,7 +44,7 @@ if __name__ == "__main__":
     print("False or False:", False or False)
 
 
-    print("---------- Operadores de comparacion --------------")
+    print(nuevoTema("Operadores de comparacion "))
     x = 8
     y = 8
     print(x == y)
@@ -55,8 +55,36 @@ if __name__ == "__main__":
     print(x <= y)
 
 
-    print("---------- Variables --------------")
+    print(nuevoTema("Variables"))
     a,b,c = 1,4,"Bienvenido"
     print(a)
     print(b)
     print(c)
+
+    print(nuevoTema("Enteros"))
+    x = 569
+    y = 54684
+    z = 7894165465464620101846168797605654064684046846046846804646546
+    b = 0b1111
+    h = 0xFF
+    #print(x*y*z)
+    print(x,type(x))
+    print(y,type(y))
+    print(z,type(z))
+    print(b,type(b))
+    print(h,type(h))
+
+
+    print(nuevoTema("Flotantes"))
+    q = 985.63
+    w = 1420.2
+    print(q,type(q))
+    print(w,type(w))
+
+
+    print(nuevoTema("Complejos"))
+    q = 3 + 2j
+    w = -63j
+    print(q,type(q))
+    print(w,type(w))
+
