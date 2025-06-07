@@ -97,16 +97,60 @@ if __name__ == "__main__":
 
 
     print(nuevoTema("Listas"))
-    q = [2,5.6,"Cadena"]
-    print(q)
-    print(q[1])
-    q.append("Leo")
-    q[0] = "Hola"
-    print(q)
-    q.insert(1,"elemento1")
-    print(q)
-    print(q.index(5.6))
-    print(q.index("Leo"))
-    q.append([1,2,3,4,5])
-    print(q)
-    print(q[5][0])
+    list = [2,5.6,"Cadena"]
+    print(list)
+    print(list[1])
+    list.append("Leo")
+    list[0] = "Hola"
+    print(list)
+    list.insert(1,"elemento1")
+    print(list)
+    print(list.index(5.6))
+    print(list.index("Leo"))
+    list.append([1,2,3,4,5])
+    print(list)
+    print(list[5][0])
+
+
+    print(nuevoTema("Tuplas"))
+    tupla = (23,67,"Tuplas")
+    print(tupla)
+    print(tupla[2])
+    print(tupla.index(23))
+
+
+    print(nuevoTema("Conjuntos"))
+    conjunto = {23,67,12}
+    print(conjunto)
+    conjunto.add(44)    
+    print(conjunto)
+
+    print(nuevoTema("Diccionario"))
+    diccionario = {"Nombre":"Leonardo",
+                "Edad":33,
+                "Estado": "Casado",
+                "Telefono":"3317890987"}
+    
+    print(diccionario)
+    print(diccionario["Edad"])
+
+
+    print(nuevoTema("Cadena"))
+    cadena1 = "Esto es una cadena"
+    cadena2 = 'Esto es otra cadena'
+    cadena_multilinea = '''Esto   es una 
+    cadena multilinea   con tabuladores y 
+    saltos de linea'''
+
+    print(cadena1)
+    print(cadena2)
+    print(cadena_multilinea)
+
+    print(cadena1[::2])
+    print(cadena1[2])
+    print(cadena1[:5])
+    print(cadena1[2:])
+    print(cadena1[5:-5])
+    print(cadena1[:-5])
+    print(cadena1[::-1])
+    print(cadena_multilinea[26])
