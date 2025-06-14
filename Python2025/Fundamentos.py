@@ -9,7 +9,16 @@ def Resta(a,b):
 def nuevoTema(tema):
     return f"\n---------- {tema} ----------\n"
 
+def ejemplo(x):
+    x += 1
+    return x
+
 if __name__ == "__main__":
+
+    valor = 12
+    valor1 = ejemplo(valor)
+    print(valor, valor1)
+    
 
     print(nuevoTema("Operadores aritmeticos"))
     print("Operador suma, 5 + 6 = ",Suma(5,6))
@@ -151,6 +160,18 @@ if __name__ == "__main__":
     print(cadena1[:5])
     print(cadena1[2:])
     print(cadena1[5:-5])
-    print(cadena1[:-5])
+   # print(cadena1[:-5])
     print(cadena1[::-1])
     print(cadena_multilinea[26])
+
+    a = float(input("Valor de a: "))
+    
+    b = float(input("Valor de b: "))
+
+    print(f"Solución:{-b/a}" if a != 0 else print("Soluciones infinitas") if b == 0 else print("No se puede dividir por cero"))
+
+
+
+
+
+  
